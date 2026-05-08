@@ -42,7 +42,7 @@ export function Hero() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="z-10"
+          className="z-10 order-2 lg:order-1"
         >
           
           <h1 className="text-6xl md:text-8xl font-display font-black leading-[0.9] mb-6">
@@ -87,9 +87,9 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.8, rotateY: 30 }}
           animate={{ opacity: 1, scale: 1, rotateY: 0 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="relative hidden lg:block"
+          className="relative block mt-10 lg:mt-0 order-1 lg:order-2"
         >
-          <div className="relative w-full aspect-square max-w-lg mx-auto">
+          <div className="relative w-full aspect-square max-w-[300px] md:max-w-lg mx-auto">
             {/* Background elements */}
             <div className="absolute inset-0 bg-gradient-to-tr from-brand-blue/10 to-brand-purple/10 rounded-full blur-[100px] animate-pulse" />
             
@@ -100,9 +100,9 @@ export function Hero() {
                 rotateZ: [0, 2, 0]
               }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-              className="relative z-10 w-full h-full glass-card rounded-[40px] p-2 rotate-3 hover:rotate-0 transition-transform duration-700 overflow-hidden group shadow-2xl"
+              className="relative z-10 w-full h-full glass-card rounded-full lg:rounded-[40px] p-2 rotate-3 hover:rotate-0 transition-transform duration-700 overflow-hidden group shadow-2xl"
             >
-              <div className="w-full h-full rounded-[36px] overflow-hidden relative">
+              <div className="w-full h-full rounded-full lg:rounded-[36px] overflow-hidden relative">
                 <img 
                   src="/sachin.jpg" 
                   alt="Sachin"
