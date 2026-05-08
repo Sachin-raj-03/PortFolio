@@ -1,15 +1,9 @@
 import { motion } from 'framer-motion';
 import { 
-  Code2, 
-  Cpu, 
   Database, 
-  Globe, 
-  Layers, 
   Layout, 
-  Monitor, 
   Smartphone, 
-  Terminal,
-  Zap
+  Terminal
 } from 'lucide-react';
 
 const categories = [

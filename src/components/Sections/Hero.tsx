@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, ChevronDown, Download, MessageSquare } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const words = ["Full Stack Developer", "Mobile App Developer", "Creative Problem Solver"];

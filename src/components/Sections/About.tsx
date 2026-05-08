@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { BookOpen, GraduationCap, Heart, Sparkles, Target, Zap } from 'lucide-react';
+import { GraduationCap, Heart, Sparkles, Target, Zap } from 'lucide-react';
 
 export function About() {
   return (

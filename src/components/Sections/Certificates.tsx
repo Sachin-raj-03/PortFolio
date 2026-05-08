@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Award, ShieldCheck, Star, Trophy } from 'lucide-react';
+import { Award, Trophy } from 'lucide-react';
 
 const certificates = [
   {

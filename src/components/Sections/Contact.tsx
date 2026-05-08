@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, MessageSquare, Send, Sparkles, Phone, Linkedin, Github, MapPin, Instagram, CheckCircle2 } from 'lucide-react';
+import { Mail, Send, Sparkles, Phone, Linkedin, Github, MapPin, Instagram, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
 
 const socials = [

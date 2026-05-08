@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Smartphone, Globe, Shield, CreditCard } from 'lucide-react';
+import { ExternalLink, Github, Smartphone, Globe } from 'lucide-react';
 
 const projects = [
   {
