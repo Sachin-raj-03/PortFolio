@@ -118,12 +118,12 @@ export function Hero() {
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-              className="absolute -inset-10 border border-slate-100 rounded-full"
+              className="absolute -inset-5 md:-inset-10 border border-slate-100 rounded-full hidden sm:block"
             />
             <motion.div
               animate={{ rotate: -360 }}
               transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
-              className="absolute -inset-20 border border-brand-blue/5 rounded-full border-dashed"
+              className="absolute -inset-10 md:-inset-20 border border-brand-blue/5 rounded-full border-dashed hidden sm:block"
             />
           </div>
         </motion.div>

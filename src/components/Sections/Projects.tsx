@@ -92,7 +92,7 @@ export function Projects() {
                   )}
 
                   {/* Icon Overlay */}
-                  <div className="absolute -bottom-6 -right-6 w-20 h-20 glass rounded-3xl flex items-center justify-center text-slate-800 border-white shadow-xl group-hover:border-brand-blue/50 transition-all">
+                  <div className="absolute -bottom-4 -right-2 md:-bottom-6 md:-right-6 w-16 h-16 md:w-20 md:h-20 glass rounded-2xl md:rounded-3xl flex items-center justify-center text-slate-800 border-white shadow-xl group-hover:border-brand-blue/50 transition-all">
                     {project.isMobile ? <Smartphone size={32} /> : <Globe size={32} />}
                   </div>
                 </div>

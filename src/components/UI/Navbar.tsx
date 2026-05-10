@@ -13,8 +13,8 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 px-6 py-4">
-      <div className="max-w-7xl mx-auto flex items-center justify-between glass px-6 py-3 rounded-2xl">
+    <nav className="fixed top-0 left-0 w-full z-50 px-2 sm:px-6 py-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between glass px-4 sm:px-6 py-3 rounded-2xl">
         <motion.div 
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
