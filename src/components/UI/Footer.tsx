@@ -1,4 +1,4 @@
-import { ArrowUp, Github, Linkedin, Instagram, Sparkles } from 'lucide-react';
+import { ArrowUp, Github, Linkedin, Instagram, Sparkles, Heart } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export function Footer() {
@@ -70,13 +70,9 @@ export function Footer() {
 
       {/* Dark Credit Bar */}
       <div className="w-full bg-[#000000] py-[20px] border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex gap-8 text-[10px] font-mono text-slate-500 uppercase tracking-widest">
-            <a href="#" className="hover:text-white transition-colors">Privacy_Protocol</a>
-            <a href="#" className="hover:text-white transition-colors">Terms_of_Service</a>
-          </div>
-          <p className="text-[10px] font-mono text-slate-500 uppercase tracking-[0.5em]">
-            Developed by <a href="https://portfolio-sachin-ebon.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors border-b border-slate-800 hover:border-white pb-1">SACHIN</a>
+        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-center items-center gap-6">
+          <p className="text-[10px] font-mono text-slate-500 uppercase tracking-[0.5em] flex items-center gap-2">
+            Built with <Heart size={10} className="text-red-500 fill-red-500 animate-pulse" /> by <a href="https://portfolio-sachin-ebon.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors border-b border-slate-800 hover:border-white pb-1">SACHIN</a>
           </p>
         </div>
       </div>
